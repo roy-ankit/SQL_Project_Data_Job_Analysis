@@ -9,7 +9,7 @@ Answer: What are the most optimal skills to learn (aka it’s in high demand and
 
 SELECT
     skills_dim.skills,
-    skills_dim.skill_id,
+    --skills_dim.skill_id,
     COUNT(skills_dim.skill_id) AS skill_demand,
     ROUND(AVG(salary_year_avg),2) AS avg_skill_salary
 FROM

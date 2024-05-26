@@ -23,6 +23,7 @@ NOTE: If you are having issues with permissions. And you get error:
 
 */
 select * from company_dim LIMIT 5;
+SELECT * from job_postings_fact limit 5;
 
 
 -- NOTE: This has been updated from the video to fix issues with encoding

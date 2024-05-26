@@ -8,7 +8,7 @@ Question: What skills are required for the top-paying data analyst jobs?
 
 
 WITH top_paying_da_jobs AS (
-    select 
+    SELECT 
         job_id,
         job_title,
         job_title_short,
@@ -25,12 +25,12 @@ WITH top_paying_da_jobs AS (
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC
-    limit 10
+    LIMIT 10
 )
 
 
 SELECT
-    -- job.job_title_short,
+    --job.job_title_short,
     job.*,
     sk.skills
 FROM
