@@ -319,7 +319,7 @@ Highlights:
 
 # Learnings
 
-Key learnigns in terms of technical ability:
+Key learnings in terms of technical ability:
 
 1. Mastered the art of advanced SQL, merging tables using joins and executing various functions using WITH, HAVING clauses.
 2. Data Aggregation method using GROUP BY and aggregate functions like COUNT() and AVG().
